@@ -18,8 +18,8 @@
 // temperature sensor PC1
 #define GPIO_Temp GPIOC			// GPIO used for the temp sensor
 #define Pin_Temp GPIO_Pin_1		// pin used
-#define setTemp 20				// desired temperature
-#define sensorCheckTime 10		// how often the temperature must be checked
+#define setTemp 26				// desired temperature
+#define sensorCheckTime 1		// how often the temperature must be checked
 
 // Initialise temperature sensor
 void initTempSensor(void);
